@@ -15,8 +15,4 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: number, label: Number, widget: number }
-      - name: images
-        label: Pictures
-        widget: list
-        fields:
-          - { name: image, label: Image, widget: image }
+      - { name: images, label: Pictures, widget: list, field: { name: image, label: Picture, widget: image } }
